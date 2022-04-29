@@ -1,39 +1,33 @@
 [
     {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/android_device_xiaomi_sm6150-common",
+        "remote":       "pixelos-devices",
+        "repository":   "device_xiaomi_sm6150-common-toco",
         "target_path":  "device/xiaomi/sm6150-common",
-        "revision":     "xt"
+        "revision":     "twelve"
     },
     {
-        "remote":       "github",
-        "repository":   "vantoman/kernel_xiaomi_sm6150",
+        "remote":       "pixelos-devices",
+        "repository":   "kernel_xiaomi_sm6150-priv",
         "target_path":  "kernel/xiaomi/sm6150",
-        "revision":     "eleven"
+        "revision":     "12.1"
     },
     {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/vendor_xiaomi",
+        "remote":       "pixelos-devices",
+        "repository":   "vendor_xiaomi-toco",
         "target_path":  "vendor/xiaomi",
-        "revision":     "hw"
-    },
-    {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/vendor_xiaomi_google",
-        "target_path":  "vendor/xiaomi/google",
-        "revision":     "r11.0"
+        "revision":     "twelve"
     },
     {
         "remote":       "github",
         "repository":   "LineageOS/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
-        "revision":     "lineage-18.1"
+        "revision":     "lineage-19.1"
     },
     {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/proton-clang",
-        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
-        "revision":     "proton"
+        "remote":       "gitlab",
+        "repository":   "PixelOS-Devices/playgroundtc",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-playground",
+        "revision":     "15",
         "clone-depth":  "1"
     }
 ]
