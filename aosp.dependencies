@@ -30,10 +30,5 @@
         "revision":     "15",
         "clone-depth":  "1"
     },
-    {
-        "remote":       "gitlab",
-        "repository":   "d.murimi14/vendor-anxcamera",
-        "target_path":  "vendor/ANXCamera",
-        "revision":     "twelve"
     }
 ]
